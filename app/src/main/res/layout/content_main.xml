@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".MainActivity"
+    tools:showIn="@layout/app_bar_main">
+
+    <TextView
+        android:id="@+id/storytext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginBottom="35dp"
+        android:padding="20dp"
+        android:soundEffectsEnabled="true"
+        android:text="Many hundreds of years ago, Aesop, a Greek slave, became famous for the fables he told. After so many years, people all over the world still enjoy reading them today as much as the Greeks enjoyed listening to them long, long ago.
+Long ago and far away, there was an old farmer who had seven sons. One day, the old farmer was lying on his bed and he thought that he would not live much longer. He called his sons before him. He told a servant to bring in a bundle of seven sticks tied together.He handed the bundle to his oldest son and told him, “Son, now break the bundle.”
+The son tried with all his might, but he could not break the bundle. One by one, the other brothers tried. None of them was strong enough.
+The father smiled, “Now, my sons, untie the bundle. Each of you, take a stick and try to break it.” This time they had no difficulty breaking the sticks. In a few moments all sticks were broken.
+The old man looked at his sons affectionately and said, “Remember, in unity there is strength.”
+"
+        android:textIsSelectable="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/storytext"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="19dp"
+        android:gravity="center|center_horizontal"
+        android:text="Aesop's Fable"
+        android:textColor="@android:color/holo_blue_dark"
+        android:textSize="34dp"
+        android:textStyle="bold"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="86dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <TextView
+        android:id="@+id/banglaMeaning"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:padding="3dp"
+        android:background="@android:color/holo_blue_dark"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
+        android:layout_marginTop="14dp"
+        android:layout_marginEnd="50dp"
+        android:layout_marginRight="50dp"
+        android:text="Bangla Meaning" />
+
+</RelativeLayout>

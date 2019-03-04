@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".BanglaTranslatedActivity">
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_margin="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+
+        android:text="কয়েক শত বছর আগে, গ্রিক ক্রীতদাসের Aesop, তিনি কথিত fables জন্য বিখ্যাত হয়ে ওঠে। অনেক বছর পর, সারা বিশ্ব জুড়ে মানুষ এখনও তাদের পড়া উপভোগ করে, যতদিন গ্রীকরা তাদের অনেক দিন আগে শুনতেন।
+অনেক আগে এবং অনেক দূরে, একটি বৃদ্ধ কৃষক ছিল যার সাত পুত্র ছিল। একদিন, বৃদ্ধ কৃষক তার বিছানায় শুয়ে ছিলেন এবং তিনি ভেবেছিলেন যে তিনি আর বেশি সময় বাঁচবেন না। তিনি তার আগে তার পুত্র বলা। তিনি এক বান্দাকে একসঙ্গে বাঁধে সাতটি লাঠি একত্রিত করার জন্য বলেছিলেন। তিনি বান্ডেলকে তার পুরোনো ছেলেকে হস্তান্তর করলেন এবং তাকে বললেন,ছেলে, এখন বান্ডেল ভেঙে ফেল। পুত্র তার সমস্ত শক্তি দিয়ে চেষ্টা, কিন্তু তিনি বান্ডিল বিরতি না পারে। একের পর এক ভাইয়েরা চেষ্টা করলো। তাদের কেউ যথেষ্ট শক্তিশালী ছিল।
+    বাবা হাসলেন,এখন, আমার ছেলেরা, বান্ডেলটি খুলো। আপনি প্রতিটি, একটি লাঠি গ্রহণ এবং এটি বিরতি চেষ্টা। এই সময় তারা লাঠি ভঙ্গ কোন অসুবিধা ছিল। কয়েক মুহূর্তের মধ্যে সব লাঠি ভাঙ্গা হয়।
+    বুড়ো লোকটি স্নেহপূর্ণভাবে তাঁর ছেলেদের দিকে তাকিয়ে বলল, মনে রেখো, ঐক্যতে শক্তি আছে।"
+    />
+</RelativeLayout>
